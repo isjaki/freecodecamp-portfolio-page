@@ -48,10 +48,6 @@ body {
     margin: 0;
 }
 
-.project-tile img {
-    width: 280px;
-}
-
 #projects {
     text-align: center;
 }
@@ -59,7 +55,7 @@ body {
 #projects h2 {
     color: #125a40;
     font-weight: normal;
-    margin-bottom: 0;
+    margin: 50px 0 0;
 }
 
 .projects__wrap {
@@ -69,9 +65,43 @@ body {
 
 .project-tile {
     border: 2px solid #84e2f9;
-    margin: 40px 80px 40px;
+    margin: 40px 100px 40px;
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #125a40;
+    font-weight: bold;
+}
+
+.project-tile img {
+    width: 280px;
 }
 
 .project-title {
     border-top: 2px solid #84e2f9;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #125a40;
+    font-weight: bold;
+    background-color: #ceeae2;
+    border: 2px solid #5fc68a;
+}
+
+.button-show {
+    padding: 10px 65px 10px;
+    border-radius: 4px;
+    margin: 20px 0 90px;
+}
+
+#contacts {
+    background-color: #b7fcb5;
+}
+
+footer {
+    background-color: #22313f;
+    color: #fff;
 }
