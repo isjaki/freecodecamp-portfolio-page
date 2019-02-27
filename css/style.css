@@ -4,7 +4,10 @@ body {
 }
 
 #navbar {
-    background-color: #c5e5dc;
+    background-color: #ceeae2;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar__list {
@@ -20,5 +23,35 @@ body {
 }
 
 .navbar__list a {
-    color: #76a091;
+    color: #517065;
+    text-decoration: none;
+}
+
+#welcome-section {
+    background-color: #ceeae2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section__title {
+    text-align: center;
+}
+
+.welcome-section__title h1 {
+    margin: 0;
+}
+
+.welcome-section__title p {
+    color: #125a40;
+    margin: 0;
+}
+
+.project-tile img {
+    width: 280px;
+}
+
+#projects h2 {
+    color: #125a40;
 }
