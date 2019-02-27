@@ -52,6 +52,26 @@ body {
     width: 280px;
 }
 
+#projects {
+    text-align: center;
+}
+
 #projects h2 {
     color: #125a40;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.projects__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.project-tile {
+    border: 2px solid #84e2f9;
+    margin: 40px 80px 40px;
+}
+
+.project-title {
+    border-top: 2px solid #84e2f9;
 }
