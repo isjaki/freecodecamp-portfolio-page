@@ -58,7 +58,7 @@ body {
     margin: 50px 0 0;
 }
 
-.projects__wrap {
+.projects__wrap-row {
     display: flex;
     justify-content: center;
 }
