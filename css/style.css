@@ -98,10 +98,39 @@ body {
 }
 
 #contacts {
-    background-color: #b7fcb5;
+    background-color: #cbfcc9;
+    text-align: center;
+    padding: 180px 0 200px;
+}
+
+#header h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#header p {
+    margin: 0;
+}
+
+#social-profiles {
+    margin-top: 90px;
+}
+
+.button-profile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 35px;
 }
 
 footer {
     background-color: #22313f;
+    color: #fff;
+    padding: 20px 0 20px;
+    text-align: center;
+}
+
+footer a {
     color: #fff;
 }
