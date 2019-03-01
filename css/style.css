@@ -87,8 +87,12 @@ body {
     text-decoration: none;
     color: #125a40;
     font-weight: bold;
-    background-color: #ceeae2;
+    background-color: #cfe2dc;
     border: 2px solid #5fc68a;
+}
+
+.button:hover {
+    background-color: #dffcfa;
 }
 
 .button-show {
