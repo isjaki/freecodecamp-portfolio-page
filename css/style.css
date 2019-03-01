@@ -66,6 +66,8 @@ body {
 .project-tile {
     border: 2px solid #84e2f9;
     margin: 40px 100px 40px;
+    width: 280px;
+    height: 220px;
 }
 
 .project-tile a {
@@ -75,11 +77,10 @@ body {
 }
 
 .project-tile img {
-    width: 280px;
-}
-
-.project-title {
-    border-top: 2px solid #84e2f9;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-bottom: 2px solid #84e2f9;
 }
 
 .button {
@@ -137,4 +138,11 @@ footer {
 
 footer a {
     color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+    .projects__wrap-row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
