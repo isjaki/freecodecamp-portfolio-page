@@ -146,3 +146,13 @@ footer a {
         align-items: center;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .navbar__list {
+        text-align: center;
+    }
+    
+    .navbar__list li {
+        margin: 25px 20px 15px;
+    }
+}
